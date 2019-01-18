@@ -1,9 +1,9 @@
 # dragDroptable
 layui拖动排序
-
+```
 var dragDrop = layui.dragDrop;
 var ele = 'dragDropTable';
-# 排序后数据
+**排序后数据**
 var updateIndex = function(e, ui) {
    $(ui).each(function (i) {
         console.log($(this));
@@ -11,3 +11,4 @@ var updateIndex = function(e, ui) {
  };
 dragDrop.init({ele:ele,stop:updateIndex});
 
+```
